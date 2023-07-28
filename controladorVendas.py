@@ -5,6 +5,7 @@ from controladorFuncionario import buscarFuncionarioVenda
 from controladorCliente import buscarClienteVenda
 from controladorProduto import buscarProdutoVenda
 
+
 def gravarVendasJSON():
       with open('venda.json', 'w') as arqJson:
             json.dump(baseVendas, arqJson, indent=4)
