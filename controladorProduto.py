@@ -2,6 +2,7 @@ import os.path
 import json
 
 
+
 def gravarProdutoJSON():
       with open('produto.json', 'w') as arqJson:
             json.dump(baseProduto, arqJson, indent=4)
